@@ -1,16 +1,23 @@
-## 🚙  Vehicle Route Optimisation using Ant Colony Optimisation (ACO) 🐜
+##   🚙  Vehicle Route Optimisation using Ant Colony Optimisation (ACO) 🐜
 
 Python implementation of an Ant Colony Optimisation algorithm to solve the vehicle routing problem with periodic refueling constraints.
 
 This project implements an Ant Colony Optimisation (ACO) algorithm in Python to solve a delivery route optimisation problem. It considers realistic constraints such as inserting petrol station visits after every 9 delivery stops and computes the most efficient route based on geographical coordinates.
 
 
-### 📌 Features
+###  📌 Features
 
 - Optimises delivery routes using Ant Colony Optimisation (ACO)
 - Inserts petrol station stops after every 9 deliveries
 - Calculates and visualises the optimised route with matplotlib
 - Outputs total route distance and saves the route plot
+
+
+###  🧠 About the Algorithm (Ant Colony Optimization)
+
+ACO is a bio-inspired optimisation technique modelled after the behaviour of real ants. In nature, ants find the shortest paths between their colony and food sources by laying down and following **pheromone trails**. Over time, shorter paths accumulate more pheromones, making them more attractive to other ants.
+
+In this scenario, each ant simulates one possible route (solution) in each iteration. Pheromone levels and distance heuristics guide the selection of the next stop. Multiple ants explore different paths in parallel, and over time, the algorithm converges on the most efficient delivery route for the delivery vehicle.
 
 
 #### ⚠️ Dataset Disclaimer
