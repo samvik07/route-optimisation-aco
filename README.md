@@ -13,7 +13,7 @@ This project implements an Ant Colony Optimisation (ACO) algorithm in Python to 
 - Outputs total route distance and saves the route plot
 
 
-###  🧠 About the Algorithm (Ant Colony Optimization)
+###  🧠 About the Algorithm (Ant Colony Optimisation)
 
 ACO is a bio-inspired optimisation technique modelled after the behaviour of real ants. In nature, ants find the shortest paths between their colony and food sources by laying down and following **pheromone trails**. Over time, shorter paths accumulate more pheromones, making them more attractive to other ants.
 
