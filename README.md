@@ -1,4 +1,4 @@
-# 🐜 Vehicle Route Optimisation using Ant Colony Optimisation (ACO)
+# 🚙  Vehicle Route Optimisation using Ant Colony Optimisation (ACO) 🐜
 
 Python implementation of an Ant Colony Optimisation algorithm to solve the vehicle routing problem with periodic refueling constraints.
 
@@ -13,7 +13,7 @@ This project implements an Ant Colony Optimisation (ACO) algorithm in Python to 
 - Outputs total route distance and saves the route plot
 
 
-## ⚠️ Dataset Disclaimer
+#### ⚠️ Dataset Disclaimer
 
 The original dataset used in this project cannot be shared publicly due to confidentiality.
 However, the script expects a CSV file with the following structure:
@@ -26,7 +26,7 @@ However, the script expects a CSV file with the following structure:
 
 
 
-### 📖 References
+#### 📖 References
 This implementation is inspired by:
 - "Ant Colony Optimization to Solve the Travelling Salesman Problem" by Dr. Tri Basuki Kurniawan,  published in The Lorry Data, Tech & Product, dated 15th Feb 2022.     (https://medium.com/thelorry-product-tech-data/ant-colony-optimization-to-solve-the-travelling-salesman-problem-d19bd866546e). 
 - "Implementation of Ant Colony Optimization Using Python – Solve Traveling Salesman Problem" by Induraj S, dated 23rd Feb 2023.
